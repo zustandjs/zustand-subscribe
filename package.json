@@ -23,7 +23,13 @@
     "build": "tsdown",
     "release": "release publish"
   },
-  "keywords": [],
+  "keywords": [
+    "zustand",
+    "subscribe",
+    "slice",
+    "partial",
+    "select"
+  ],
   "author": "Artem Zakharchenko <kettanaito@gmail.com>",
   "license": "MIT",
   "publishConfig": {
