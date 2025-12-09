@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "zustand-subscribe",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "tsdown"
+  },
+  "keywords": [],
+  "author": "Artem Zakharchenko <kettanaito@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "tsdown": "^0.17.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15",
+    "zustand": "^5.0.9"
+  }
+}
