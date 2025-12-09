@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "zustand-subscribe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utilities for subscribing to a Zustand store.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
