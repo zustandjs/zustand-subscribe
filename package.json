@@ -12,17 +12,29 @@
       "default": "./build/index.js"
     }
   },
+  "files": [
+    "./build",
+    "./src",
+    "./tests"
+  ],
   "scripts": {
+    "lint": "publint",
     "test": "vitest",
-    "build": "tsdown"
+    "build": "tsdown",
+    "release": "release publish"
   },
   "keywords": [],
   "author": "Artem Zakharchenko <kettanaito@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "zustand": "^5.0.0"
   },
   "devDependencies": {
+    "@ossjs/release": "^0.10.1",
+    "publint": "^0.3.15",
     "tsdown": "^0.17.2",
     "typescript": "^5.9.3",
     "vitest": "^4.0.15",
