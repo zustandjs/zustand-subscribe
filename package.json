@@ -32,6 +32,9 @@
   ],
   "author": "Artem Zakharchenko <kettanaito@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/zustandjs/zustand-subscribe"
+  },
   "publishConfig": {
     "access": "public"
   },
